@@ -1,0 +1,5 @@
+package com.kaansenada.publisherprototype.dto;
+
+public class GoogleBookResponseDto {
+    
+}

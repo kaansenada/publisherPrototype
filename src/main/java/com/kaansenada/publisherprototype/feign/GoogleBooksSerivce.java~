@@ -1,0 +1,18 @@
+package com.kaansenada.publisherprototype.feign;
+
+import com.kaansenada.publisherprototype.feign.entity.GoogleBooksResponse;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@AllArgsConstructor
+public class GoogleBooksSerivce implements IGoogleBooksService {
+
+    private final GoogleBooksRepository googleBooksRepository;
+
+
+    @Override
+    public GoogleBooksResponse searchBooks(String query) {
+        return null;
+    }
+}

@@ -1,0 +1,4 @@
+package com.kaansenada.publisherprototype.exception;
+
+public class AlreadyExistsException {
+}

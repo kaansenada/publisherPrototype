@@ -1,0 +1,13 @@
+package com.kaansenada.publisherprototype.service.impl;
+
+import com.kaansenada.publisherprototype.entity.GoogleBooksResponse;
+import com.kaansenada.publisherprototype.service.IGoogleBooksService;
+
+public class GoogleBooksSerivce implements IGoogleBooksService {
+    @Override
+    public GoogleBooksResponse searchBooks(String query) {
+        return null;
+    }
+
+
+}

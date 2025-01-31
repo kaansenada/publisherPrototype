@@ -1,0 +1,5 @@
+package com.kaansenada.publisherprototype.feign;
+
+public interface IGoogleBooksService {
+    GoogleBooksResponse searchBooks(String query);
+}

@@ -1,0 +1,13 @@
+package com.kaansenada.publisherprototype.dto;
+
+import com.kaansenada.publisherprototype.entity.Book;
+
+import java.util.List;
+
+public class CustomPublisherDto {
+    private String publisherName;
+
+    private List<Book> books;
+
+    private List<Author>
+}

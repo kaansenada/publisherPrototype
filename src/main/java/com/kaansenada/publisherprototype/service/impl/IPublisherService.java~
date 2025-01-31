@@ -1,0 +1,8 @@
+package com.kaansenada.publisherprototype.service.impl;
+
+import com.kaansenada.publisherprototype.entity.Publisher;
+
+public interface IPublisherService {
+    void savePublisher(Publisher publisher);
+    
+}

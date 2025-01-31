@@ -1,0 +1,17 @@
+package com.kaansenada.publisherprototype.feign.entity;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class SaleInfo {
+    @JsonProperty("listPrice")
+    private ListPrice listPrice;
+
+    public ListPrice getListPrice() {
+        return listPrice;
+    }
+
+    public void setListPrice(ListPrice listPrice) {
+        this.listPrice = listPrice;
+    }
+}
+
